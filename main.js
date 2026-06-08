@@ -5,6 +5,7 @@ const resultado = document.querySelector("#resultado");
 
 //botao.addEventListener("click", soma);
 
+
 function soma(){
 
 let num1, num2, resCalculo;
