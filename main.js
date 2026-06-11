@@ -36,3 +36,7 @@ botao.addEventListener("click", soma);
     mostrarMensagemErro();
 }
 
+function exibirResultado(valor){
+    resultado.innerHTML = valor;
+}
+
