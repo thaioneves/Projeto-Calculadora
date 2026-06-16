@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Calculadora</title>
-    <script src="./function.js" defer></script>
+    <script src="./main.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,11 +13,16 @@
         <input type="text" id="num1" placeholder="Primeiro número">
         <input type="text" id="num2" placeholder="Segundo número">
     
-    <button id="btnCalcular">Somar</button>
+        <div class="btn-area">
+            <button id="btnSomar">+</button>
+            <button id="btnSubtrair"> — </button>
+            <button id="btnMultiplicar">X</button>
+            <button id="btnDivisao">%</button>
+            <button id="btnLimpar">Limpar</button>
+        </div>
     </form>
-    <div class="box">
-        <p>Resultado: </p>
-        <p id="resultado"></p>
+    <div class="box invisible">
+        <p id="resultado"></p>              
     </div>
 </body>
-</html>
+</html>                                   
